@@ -1,0 +1,16 @@
+{
+    "name": "Rakesh Jai Portfolio",
+    "short_name": "RakeshJai",
+    "description": "Full Stack Developer specializing in React, TypeScript, Python, and AI.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0A192F",
+    "theme_color": "#64FFDA",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

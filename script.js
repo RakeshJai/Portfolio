@@ -421,13 +421,14 @@ if ('loading' in HTMLImageElement.prototype) {
 }
 
 // ========== PAGE LOAD ANIMATION ===========
-window.addEventListener('load', () => {
-    document.body.style.opacity = '0';
-    setTimeout(() => {
-        document.body.style.transition = 'opacity 0.5s ease';
-        document.body.style.opacity = '1';
-    }, 100);
-});
+// Removed to improve LCP and prevent content flashing
+// window.addEventListener('load', () => {
+//     document.body.style.opacity = '0';
+//     setTimeout(() => {
+//         document.body.style.transition = 'opacity 0.5s ease';
+//         document.body.style.opacity = '1';
+//     }, 100);
+// });
 
 // ========== CONSOLE MESSAGE ===========
 console.log(
